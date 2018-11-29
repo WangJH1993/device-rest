@@ -1,0 +1,100 @@
+2018-11-28 16:57:20.314  INFO 15664 --- [pool-18-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 16:57:29.990  INFO 17740 --- [main] org.edgexfoundry.Application             : No active profile set, falling back to default profiles: default
+2018-11-28 16:57:32.165  INFO 17740 --- [main] org.edgexfoundry.BaseService             : service device-rest has service id 5bf12a9bf1d120294ffbbec9
+2018-11-28 16:57:32.165  INFO 17740 --- [main] org.edgexfoundry.BaseService             : Service registered with id: 5bf12a9bf1d120294ffbbec9
+2018-11-28 16:57:32.404  INFO 17740 --- [main] org.edgexfoundry.data.WatcherStore       : Profile JC.RR5.NAE9.ConfRoom.Padre.Island has not been added to metadata, watcher will not be added
+2018-11-28 16:57:32.436  INFO 17740 --- [main] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海智城
+2018-11-28 16:57:38.364  INFO 17740 --- [main] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海支撑
+2018-11-28 16:57:38.450  INFO 17740 --- [main] org.edgexfoundry.data.DeviceStore        : Device service has 2 devices.
+2018-11-28 16:57:38.450  INFO 17740 --- [main] org.edgexfoundry.scheduling.Scheduler    : loading schedules
+2018-11-28 16:57:38.462  INFO 17740 --- [main] org.edgexfoundry.scheduling.Scheduler    : loaded schedules
+2018-11-28 16:57:38.463  INFO 17740 --- [main] org.edgexfoundry.Initializer             : Initialized device service successfully
+2018-11-28 16:57:38.463  INFO 17740 --- [main] org.edgexfoundry.BaseService             : initialization successful.
+2018-11-28 16:57:38.925  WARN 17740 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-28 16:57:38.925  INFO 17740 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-28 16:57:38.930  WARN 17740 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-28 16:57:38.930  INFO 17740 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-28 16:57:39.123  INFO 17740 --- [pool-18-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 16:57:39.162  INFO 17740 --- [main] org.edgexfoundry.Application             : Started Application in 10.675 seconds (JVM running for 11.656)
+2018-11-28 16:57:39.565  INFO 17740 --- [http-nio-49997-exec-1] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海支撑
+2018-11-28 16:57:39.566  INFO 17740 --- [http-nio-49997-exec-2] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海支撑
+2018-11-28 17:02:39.124  INFO 17740 --- [pool-18-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:07:39.123  INFO 17740 --- [pool-18-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:12:39.123  INFO 17740 --- [pool-18-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:17:26.706  INFO 4404 --- [main] org.edgexfoundry.Application             : No active profile set, falling back to default profiles: default
+2018-11-28 17:17:28.863  INFO 4404 --- [main] org.edgexfoundry.BaseService             : service device-rest has service id 5bf12a9bf1d120294ffbbec9
+2018-11-28 17:17:28.863  INFO 4404 --- [main] org.edgexfoundry.BaseService             : Service registered with id: 5bf12a9bf1d120294ffbbec9
+2018-11-28 17:17:29.016  INFO 4404 --- [main] org.edgexfoundry.data.WatcherStore       : Profile JC.RR5.NAE9.ConfRoom.Padre.Island has not been added to metadata, watcher will not be added
+2018-11-28 17:17:29.036  INFO 4404 --- [main] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海智城
+2018-11-28 17:17:29.253  INFO 4404 --- [main] org.edgexfoundry.data.DeviceStore        : Device service has 1 devices.
+2018-11-28 17:17:29.253  INFO 4404 --- [main] org.edgexfoundry.scheduling.Scheduler    : loading schedules
+2018-11-28 17:17:29.265  INFO 4404 --- [main] org.edgexfoundry.scheduling.Scheduler    : loaded schedules
+2018-11-28 17:17:29.266  INFO 4404 --- [main] org.edgexfoundry.Initializer             : Initialized device service successfully
+2018-11-28 17:17:29.266  INFO 4404 --- [main] org.edgexfoundry.BaseService             : initialization successful.
+2018-11-28 17:17:29.733  WARN 4404 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-28 17:17:29.733  INFO 4404 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-28 17:17:29.737  WARN 4404 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-28 17:17:29.738  INFO 4404 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-28 17:17:29.933  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:17:29.973  INFO 4404 --- [main] org.edgexfoundry.Application             : Started Application in 4.817 seconds (JVM running for 5.6)
+2018-11-28 17:17:30.255  INFO 4404 --- [http-nio-49997-exec-1] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海智城
+2018-11-28 17:17:30.255  INFO 4404 --- [http-nio-49997-exec-2] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海智城
+2018-11-28 17:22:29.931  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:27:29.933  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:32:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:37:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:42:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:47:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:52:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 17:57:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:02:29.933  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:07:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:12:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:17:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:22:29.931  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:27:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:32:29.936  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:37:29.933  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:42:29.933  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:47:29.932  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:52:29.931  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-28 18:57:29.931  INFO 4404 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-29 17:21:14.423  INFO 15224 --- [main] org.edgexfoundry.Application             : No active profile set, falling back to default profiles: default
+2018-11-29 17:21:18.594 ERROR 15224 --- [main] org.edgexfoundry.BaseService             : unable to establish connection to metadata java.net.ConnectException: Connection refused: connect RESTEASY004655: Unable to invoke request
+2018-11-29 17:21:30.628 ERROR 15224 --- [main] org.edgexfoundry.BaseService             : unable to establish connection to metadata java.net.ConnectException: Connection refused: connect RESTEASY004655: Unable to invoke request
+2018-11-29 17:21:42.647 ERROR 15224 --- [main] org.edgexfoundry.BaseService             : unable to establish connection to metadata java.net.ConnectException: Connection refused: connect RESTEASY004655: Unable to invoke request
+2018-11-29 22:16:28.647  INFO 16624 --- [main] org.edgexfoundry.Application             : The following profiles are active: docker
+2018-11-29 22:16:31.851  INFO 16624 --- [main] org.edgexfoundry.BaseService             : service device-rest has service id 5bf12a9bf1d120294ffbbec9
+2018-11-29 22:16:31.852  INFO 16624 --- [main] org.edgexfoundry.BaseService             : Service registered with id: 5bf12a9bf1d120294ffbbec9
+2018-11-29 22:16:32.150  INFO 16624 --- [main] org.edgexfoundry.data.WatcherStore       : Profile JC.RR5.NAE9.ConfRoom.Padre.Island has not been added to metadata, watcher will not be added
+2018-11-29 22:16:32.234  INFO 16624 --- [main] org.edgexfoundry.data.DeviceStore        : Adding managed device:  上海智城
+2018-11-29 22:16:43.897  INFO 16624 --- [main] org.edgexfoundry.data.DeviceStore        : Device service has 1 devices.
+2018-11-29 22:16:43.897  INFO 16624 --- [main] org.edgexfoundry.scheduling.Scheduler    : loading schedules
+2018-11-29 22:16:43.913  INFO 16624 --- [main] org.edgexfoundry.scheduling.Scheduler    : loaded schedules
+2018-11-29 22:16:43.914  INFO 16624 --- [main] org.edgexfoundry.Initializer             : Initialized device service successfully
+2018-11-29 22:16:43.914  INFO 16624 --- [main] org.edgexfoundry.BaseService             : initialization successful.
+2018-11-29 22:16:44.438  WARN 16624 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-29 22:16:44.439  INFO 16624 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-29 22:16:44.442  WARN 16624 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-29 22:16:44.442  INFO 16624 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-29 22:16:44.665  INFO 16624 --- [pool-13-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-29 22:16:44.705  INFO 16624 --- [main] org.edgexfoundry.Application             : Started Application in 18.17 seconds (JVM running for 19.056)
+2018-11-29 22:20:51.859  INFO 14476 --- [main] org.edgexfoundry.Application             : The following profiles are active: docker
+2018-11-29 22:20:53.997  INFO 14476 --- [main] org.edgexfoundry.BaseService             : creating service device-rest in metadata
+2018-11-29 22:20:54.220  INFO 14476 --- [main] org.edgexfoundry.BaseService             : Service registered with id: 5bfff5c67d105223a9bc8774
+2018-11-29 22:20:54.444  INFO 14476 --- [main] org.edgexfoundry.data.WatcherStore       : Profile JC.RR5.NAE9.ConfRoom.Padre.Island has not been added to metadata, watcher will not be added
+2018-11-29 22:20:54.444  INFO 14476 --- [main] org.edgexfoundry.data.DeviceStore        : Device service has 0 devices.
+2018-11-29 22:20:54.445  INFO 14476 --- [main] org.edgexfoundry.scheduling.Scheduler    : loading schedules
+2018-11-29 22:20:54.457  INFO 14476 --- [main] org.edgexfoundry.scheduling.Scheduler    : loaded schedules
+2018-11-29 22:20:54.458  INFO 14476 --- [main] org.edgexfoundry.Initializer             : Initialized device service successfully
+2018-11-29 22:20:54.458  INFO 14476 --- [main] org.edgexfoundry.BaseService             : initialization successful.
+2018-11-29 22:20:54.975  WARN 14476 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-29 22:20:54.975  INFO 14476 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-29 22:20:54.979  WARN 14476 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-29 22:20:54.979  INFO 14476 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-29 22:20:55.177  INFO 14476 --- [pool-10-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-29 22:20:55.220  INFO 14476 --- [main] org.edgexfoundry.Application             : Started Application in 4.939 seconds (JVM running for 5.959)
+2018-11-29 22:25:55.177  INFO 14476 --- [pool-10-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-29 22:30:55.177  INFO 14476 --- [pool-10-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-29 22:35:55.177  INFO 14476 --- [pool-10-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.
+2018-11-29 22:40:55.178  INFO 14476 --- [pool-10-thread-1] org.edgexfoundry.HeartBeat               : This is the device-rest device service.

@@ -1,0 +1,381 @@
+name: "Device.REST.Profile"
+manufacturer: "si-tech"
+model: "FACE RECOGNITION"
+labels:
+- "Face recognition"
+description: "Face recognition devices"
+deviceResources:
+-
+  name: addPerson
+  description: "add person to device"
+  attributes:
+    { name: "addPerson" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+-
+  name: deletesPerson
+  description: "deltete person from device"
+  attributes:
+    { name: "deletesPerson" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: clearPerson
+  description: "clear all person"
+  attributes:
+    { name: "clearPerson" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: getsPerson
+  description: "get all person from device"
+  attributes:
+    { name: "getsPerson" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: getsFace
+  description: "get all face"
+  attributes:
+    { name: "getsFace" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: addPermission
+  description: "add Permission to device"
+  attributes:
+    { name: "addPermission" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: deletesPermission
+  description: "delete Permission from device"
+  attributes:
+    { name: "deletesPermission" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: getsPermission
+  description: "get all Permission from device"
+  attributes:
+    { name: "getsPermission" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: getsDevice
+  description: "get all Device"
+  attributes:
+    { name: "getsDevice" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: setsDevice
+  description: "set Device"
+  attributes:
+    { name: "setsDevice" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: getRec
+  description: "getRec"
+  attributes:
+    { name: "getRec" }
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+  name: reportRec
+  description: "getRec"
+  attributes:
+    { name: "reportRec"}
+  properties:
+    value:
+      { type: "String", size: "0", readWrite: "W"  }
+    units:
+      { type: "String", readWrite: "R", defaultValue: "" }
+
+
+
+resources:
+-
+  name: addPerson
+  get:
+  - { index: "1", operation: "put", object: "addPerson", property: "value", parameter: "addPerson" }
+
+-
+  name: deletesPerson
+  get:
+  - { index: "1", operation: "put", object: "deletesPerson", property: "value", parameter: "deletesPerson" }
+
+-
+  name: clearPerson
+  get:
+  - { index: "1", operation: "put", object: "clearPerson", property: "value", parameter: "clearPerson" }
+
+-
+  name: getsPerson
+  get:
+  - { index: "1", operation: "put", object: "getsPerson", property: "value", parameter: "getsPerson" }
+
+-
+  name: getsFace
+  get:
+  - { index: "1", operation: "put", object: "getsFace", property: "value", parameter: "getsFace" }
+
+-
+  name: addPermission
+  get:
+  - { index: "1", operation: "put", object: "getsFace", property: "value", parameter: "addPermission" }
+
+-
+  name: deletesPermission
+  get:
+  - { index: "1", operation: "put", object: "deletesPermission", property: "value", parameter: "deletesPermission" }
+
+-
+  name: getsPermission
+  get:
+  - { index: "1", operation: "put", object: "getsPermission", property: "value", parameter: "getsPermission" }
+
+-
+  name: getsDevice
+  get:
+  - { index: "1", operation: "put", object: "getsDevice", property: "value", parameter: "getsDevice" }
+
+-
+  name: setsDevice
+  get:
+  - { index: "1", operation: "put", object: "setsDevice", property: "value", parameter: "setsDevice" }
+
+-
+  name: getRec
+  get:
+  - { index: "1", operation: "put", object: "getRec", property: "value", parameter: "getRec" }
+
+-
+  name: reportRec
+  get:
+  - { index: "1", operation: "put", object: "reportRec", property: "value", parameter: "reportRec" }
+
+
+
+
+commands:
+-
+  name: addPerson
+  put:
+    path: "/entrance/person/add/{personId}"
+    parameterNames: ["personId","image"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["addPerson"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: deletesPerson
+  put:
+    path: "/entrance/person/deletes/{personId}"
+    parameterNames: ["personId"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["deletesPerson"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: clearPerson
+  put:
+    path: "/entrance/person/clear"
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["clearPerson"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: getsPerson
+  put:
+    path: "/entrance/person/gets"
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["getsPerson"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: getsFace
+  put:
+    path: "/entrance/person/face/gets/{personId}"
+    parameterNames: ["personId"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["getsFace"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: addPermission
+  put:
+    path: "/entrance/permission/add/{personId}"
+    parameterNames: ["personId","startTime","endTime"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["addPermission"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: deletesPermission
+  put:
+    path: "/entrance/permission/deletes/{personId}"
+    parameterNames: ["personId","permissions[]"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["deletesPermission"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: getsPermission
+  put:
+    path: "/entrance/permission/gets/{personId}"
+    parameterNames: ["personId"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["getsPermission"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: getsDevice
+  put:
+    path: "/entrance/device/gets"
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["getsDevice"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: setsDevice
+  put:
+    path: "/entrance/device/sets/{deviceId}"
+    parameterNames: ["deviceName","report","reportServer","minSize","roll","yaw","pitch","liveness","compareThreshold","nirThreshold","visThreshold","salutatory","message","restart"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["setsDevice"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: getRec
+  put:
+    path: "/entrance/recognition/get"
+    parameterNames: ["personId","startTime","endTime","pageNo","pageSize"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["getRec"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
+
+-
+  name: reportRec
+  put:
+    path: "/entrance/recognition/report"
+    parameterNames: ["deviceId","deviceName","personId","regImage","sceneImage","faceImage","nirImage","compareThreshold","similarity","veiryTime"]
+    responses:
+    -
+      code: "0"
+      description: "SUCCESS"
+      expectedValues: ["reportRec"]
+    -
+      code: "1"
+      description: "INTERNAL_ERROR"
+      expectedValues: []
